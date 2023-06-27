@@ -1,0 +1,24 @@
+.con
+{
+border:5px solid black;
+display:flex;
+flex-direction: column;
+align-items: center;
+width: 300px;
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+margin: 10px;
+text-align: center;
+
+}
+.resu{
+    border:5px solid black;
+    word-wrap: break-word;
+    width: 300px;
+}

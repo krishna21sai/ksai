@@ -1,0 +1,28 @@
+.con
+{
+
+display:flex;
+flex-direction: column;
+padding: 20px;
+background-color: aqua;
+}
+body
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
+}
+div
+{ 
+}
+h1{
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+}
+.but{
+
+}
+.xx{
+    color:rgb(222, 28, 61);
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="con">
+    <div>
+    <h>Registration Form</h>
+    </div>
+    <div>
+        <label>Full Name:</label><br><input id="name" type="text">
+    </div>
+    <div>
+        <label>Email:</label><br><input id="mail" type="text">
+    </div>
+    <div>
+        <lable>choose your favorite web language:</lable><br>
+        <label><input type="radio" name="web" value="HTML" >HTML</label>
+        <label><input type="radio" name="web" value="CSS">CSS</label>
+        <label><input type="radio" name="web" value="JS">JS</label>
+    </div>
+    <div>
+        <label>Favurite Color: </label>
+        <label><input type="checkbox" name="we" value="black">black</label>
+        <label><input type="checkbox" name="we" value="blue">blue</label>
+        <label><input type="checkbox" name="we" value="green">green</label>
+    </div>
+    <div>
+        <label>
+            select Branch:<select id="krish"><option id="select" value="NULL">select</option><option id="cse" value="cse">Cse</option><option id="ece" value="ece">ECE</option><option id="eee" value="eee">EEE</option></select>
+        </label>
+    </div>
+    <div><input type="button" value="sumbit" onclick="print()"></div>
+</div>
+<div class="resu">
+<p id="result"></p>
+</div>
+<script src="2.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+.log
+{
+
+    border:solid 5px black;
+   padding: 10%;
+   display: flex;
+   flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+margin-top: 20px;
+}

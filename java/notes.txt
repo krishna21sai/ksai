@@ -1,0 +1,81 @@
+1.Declare Array
+int[] a;
+2)initialize array:
+int[] a =new int[]{1,2,3}
+3)modify 
+a[1] =10;
+4)iterating over arays
+for(iny i=0;i<numes.length;i++)
+{
+int values=numbers[i];
+}
+for(int value:number)
+{
+
+}
+predefine method for arrays:
+1.Arrays.toString(array):
+converts an array to a string representation.
+int[] number={1,2,3,4,5};
+string arrayString=Arrays.toString(numbers);
+2.Arrays sort(array):Sorts an array in ascending order
+3.Arrays.copyOf(array,length):copies an  array to a new array with the specified length.
+String strArray[]={"pyton"}
+..................................
+3day-Afternooon:                 |
+..................................
+
+
+Constructers:
+
+
+example:
+
+    Create a class called 'bankAccount' that represents 
+    a bank account . the 'BankAccount class should have
+    instance variables suchas 'accountNumber','accoutnHolderName','balance' , etc.
+    write a constructor for the 'BankAccount' clss that takes these parameters and 
+    initailizes the insance variables.
+    use the BankAccount class to create bank accoutn
+    objects an simulate banking operations like diposite, withdraw, nad balance inquiry.
+
+getter and stter methods
+-------------------------
+
+
+in java, Getter and Setter methods reused to retrive and update the pivate
+variables. when you hide the implementation of the object of the class from
+the outer world, you Declare them as private.
+As private member of the class are not accessible from outside the class , so we can use the 
+getter and setter method to retrive and update the values of private members.
+
+
+
+ ArrayList class is a part of pf collection frame 
+
+
+
+
+
+
+ .....................................................
+
+
+ you are tasked with implementing a contact management system using as singly 
+ linkedlist. The contact management system allows users to store and mange their 
+ contacts and displsying all contacts . 
+ Requirements: 1. implement a class called contact with the following properties .
+ * 'name' : a string representing the phone number of the contact.
+ * 'email' : a string representing the emil address of the  contact.
+
+
+ 2. implemnet a class called "contactlist" that manages the contact list using a singly liked list
+ the "contactlist" class should have the following methods:
+
+ "*addContact(Contact contact):
+ Adds a new contact to the contact list .
+
+ *searchContact(String name):
+
+ searches for a contact by name and return the contact information if found.
+ *displayContact()  : Displays all the contacts in the contact list.
